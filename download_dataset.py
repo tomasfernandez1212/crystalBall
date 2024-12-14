@@ -31,6 +31,6 @@ def download_bucket_directory(bucket_name, source_directory, destination_directo
 # Example usage
 bucket_name = "waymo_open_dataset_v_1_4_3"
 source_directory = "individual_files/training"
-destination_directory = "./data/waymo_open_dataset_v_1_4_3/individual_files/training"
+destination_directory = "../data/waymo_open_dataset_v_1_4_3/individual_files/training"
 
 download_bucket_directory(bucket_name, source_directory, destination_directory)
