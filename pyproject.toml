@@ -3,8 +3,10 @@ name = "crystalball"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.11"
 dependencies = [
     "google-cloud-storage",
     "tqdm",
+    "waymo-open-dataset-tf-2-11-0==1.6.1",
+    "tensorflow"
 ]
